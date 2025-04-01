@@ -1,4 +1,40 @@
 h1{
-  border-color: #d3e644;
-  border-style: dashed;
+  border-color: #eea609;
+  border-style: solid;
+  color: #210af0;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #eea609;
+}
+
+th, td {
+  border: 1px solid rgb(248, 245, 245);
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #210af0;
+  color: #eea609;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-container {
+  border: 2px solid #000000;
+  padding: 15px;
+  border-radius: 10px;
+  width: 300px;
+  background-color: #210af0;
+  margin-bottom: 20px;
 }
